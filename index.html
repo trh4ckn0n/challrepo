@@ -2,16 +2,31 @@
 <html lang="fr">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>trhacknon - Cyber Analysis</title>
-  <link rel="stylesheet" href="style.css">
+  <title>Connexion Système</title>
+  <style>
+    body {
+      background: #000;
+      color: #0f0;
+      font-family: monospace;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      height: 100vh;
+    }
+    h1 {
+      font-size: 2rem;
+      color: #f0f;
+    }
+    #status {
+      margin-top: 20px;
+    }
+  </style>
 </head>
 <body>
-  <div class="terminal">
-    <h1 class="glow">trhacknon Cyber Interface</h1>
-    <p>Initialisation du système... en attente de données réseau.</p>
-    <div class="status" id="status">🔒 En veille</div>
-  </div>
+  <h1>Connexion à la console distante...</h1>
+  <div id="status">⏳ En attente...</div>
+
   <script src="js/hidden.js"></script>
 </body>
 </html>
